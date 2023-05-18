@@ -18,14 +18,15 @@ class App extends Component {
     };
   }
 
-  // applyPickedLanguage = (pickedLanguage, oppositeLangIconId) => {
-  //   this.swapCurrentlyActiveLanguage(oppositeLangIconId);
-  //   document.documentElement.lang = pickedLanguage;
-  //   var resumePath =
-  //     document.documentElement.lang === window.$primaryLanguage
-  //       ? `res_primaryLanguage.json`;
-  //   this.loadResumeFromPath(resumePath);
-  // }
+  applyPickedLanguage = (pickedLanguage, oppositeLangIconId) => {
+    // this.swapCurrentlyActiveLanguage(oppositeLangIconId);
+    document.documentElement.lang = pickedLanguage;
+    let resumePath = 
+    document.documentElement.lang === window.$primaryLanguage
+        ? `res_primaryLanguage.json`
+        : `res_secondaryLanguage.json`;
+    this.loadResumeFromPath(resumePath);
+  }
 
   // swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
   //   var pickedLangIconId =
@@ -40,12 +41,11 @@ class App extends Component {
   //     .setAttribute("filter", "brightness(40%)");
   // }
 
-  componentDidMount = () => {
+   componentDidMount = () => {
     this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    );
+     this.applyPickedLanguage(
+       window.$primaryLanguage
+       );
   }
 
   loadResumeFromPath = (path) => {
