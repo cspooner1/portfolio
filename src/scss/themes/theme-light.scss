@@ -4,4 +4,13 @@ body[data-theme="light"] {
     .slider-tab {
        background-color: #ffffff;
     }
+    header {
+        background-color: #ffffff;
+        h1 {
+           color: rgb(255, 255, 255);
+           -webkit-text-stroke: 0px #000000;
+           font-family:cursive;
+           font-size: 60px;
+        }
+     }
 }

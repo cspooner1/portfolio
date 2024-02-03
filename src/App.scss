@@ -16,12 +16,15 @@ html {
 }
 
 .title-container {
-	height: 50px;
+font-size: 25px;
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+
 }
 
 .title-styles {
 	font-family: 'Raleway', sans-serif;
-	font-size: 250%;
+	font-size: 50px;
 }
 
 .header-icon {
@@ -35,11 +38,11 @@ header {
 	min-height: 450px;
 	width: 100%;
 	background-size: cover;
-	-webkit-background-size: cover;
+	-webkit-background-size:cover;
 	text-align: center;
 	overflow: hidden;
 	//background-color: #20cdda;
-	background-image: url(hq720.jpg);
+	background-image: url(../public/images/pexels-ithalu-dominguez-907485.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -86,7 +89,7 @@ header .nav {
 }
 
 .language {
-	font-size: 25px;
+	font-size: 30px;
 	background-color: #ff0606;
 	padding-bottom: 10px;
 	padding-top: 80px;
@@ -96,10 +99,11 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #ffffff;
+	color: #00ffb3;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
+	padding-bottom: 1%;
 }
 
 .slider-image {
@@ -232,7 +236,7 @@ header h1 {
 }
 
 #resume {
-	background-image: url('../public/images/R.jpg');
+	background-image: -webkit-linear-gradient(#c0a2e8, #daabe9);
 	background-size: cover;
 }
 
@@ -278,8 +282,8 @@ header h1 {
 }
 
 .modal-inside .modal-content {
-	background: rgb(0, 0, 0);
-	color: white;
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 }
 
 .bars {
@@ -356,7 +360,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #20cdda;
+	background-image: -webkit-linear-gradient(#daabe9, #7558de);
 	padding-bottom: 5%;
 }
 
@@ -392,7 +396,7 @@ header h1 {
 }
 
 #skills {
-	background-image: url('../public/images/292835.jpg');
+	background-image: -webkit-linear-gradient(#7558de, #c0a2e8);
 	background-size: cover;
 	min-height: 200px;
 	width: 100%;
