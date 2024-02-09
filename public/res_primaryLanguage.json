@@ -42,7 +42,7 @@
         "images/portfolio/Horns/horntopia.png",
         "images/portfolio/Horns/horn2.png"
       ],
-      "url": "horntopia.netlify.app",
+      "url": "https://horntopia.netlify.app/",
       "technologies": [
         {
           "class": "devicon-react-original",

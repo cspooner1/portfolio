@@ -7,11 +7,11 @@ body[data-theme="dark"] {
    }
 
    .title-styles {
-      color: white;
+      color: rgb(0, 0, 0);
    }
 
    .header-icon {
-      color: #3C342C;
+      color: #ffffff;
       opacity: 0.8;
    }
 
@@ -20,7 +20,7 @@ body[data-theme="dark"] {
    }
 
    .language {
-      background-color: #494949;
+      background-color: #000000;
    }
 
    .link-href {
@@ -28,19 +28,25 @@ body[data-theme="dark"] {
    }
 
    .project-date {
-      background-color: #918e97;
+      background-image: -webkit-linear-gradient(#7558de, #c0a2e8);
+      background-size: cover;      
       color: white;
    }
 
    header {
-      background-color: #ffffff;
+      //background-color: #ff0000;
+      background-image: url(../themes/galaxy-space-3840x2160.jpg);
+      background-size: cover;
       h1 {
-         color: rgb(255, 255, 255);
+         //color: rgb(255, 255, 255);
+         background-image: url(../themes/pexels-ithalu-dominguez-907485.jpg);
+         background-size: cover ;
       }
    }
 
    #about {
-      background-color: #7f7f7f;
+      background-image: -webkit-linear-gradient(#5877de, #c0a2e8);
+	      background-size: cover;
       h1 span {
          color: white;
       }
@@ -57,6 +63,7 @@ body[data-theme="dark"] {
       background: #5b5b5b;
       .section-title {
          color: white !important;
+         -webkit-text-stroke: .1px red;
       }
       .foto div {
          background: #6d6d6d;
@@ -68,18 +75,19 @@ body[data-theme="dark"] {
 
    #resume {
       filter: brightness(80%);
-      background: #5b5b5b;
+      background-image: -webkit-linear-gradient(#440695, #daabe9);
+      background-size: cover;    
       .section-title {
          color: white !important;
       }
 
       .experience-badge {
-         background: #919191 !important;
+         background: #000000 !important;
          color: white;
       }
 
       .main-badge {
-         background: #919191 !important;
+         background: #000000 !important;
       }
 
       .vertical-timeline-element-date {
@@ -103,5 +111,19 @@ body[data-theme="dark"] {
 
    .close-icon {
       color: white;
+   }
+
+   .title-styles {
+      -webkit-text-stroke: 1px rgb(223, 16, 16);
+   }
+   .title-container {
+      font-size: 40px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-stroke: 3px rgb(0, 0, 0);        
+      background-image: -webkit-linear-gradient(#440695, #daabe9);
+      background-size: cover;
+      -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
    }
 }

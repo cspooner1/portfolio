@@ -1,16 +1,41 @@
-body[data-theme="light"] {
-    @import '/src/scss/light-slider.scss';
- 
-    .slider-tab {
-       background-color: #ffffff;
-    }
-    header {
-        background-color: #ffffff;
-        h1 {
-           color: rgb(255, 255, 255);
-           -webkit-text-stroke: 0px #000000;
-           font-family:cursive;
-           font-size: 60px;
-        }
-     }
-}
+   body[data-theme="light"] {
+      @import '/src/scss/light-slider.scss';
+   
+      .slider-tab {
+         background-color: #ffffff;
+      }
+      header {
+         background-image: url(../themes/pexels-ithalu-dominguez-907485.jpg);
+         h1 {
+            //-webkit-text-stroke: .009px #ffffff;
+            font-family:cursive;
+            font-size: 80px;
+            background-image: url(../themes/galaxy-space-3840x2160.jpg);
+            background-size: cover;
+         }
+      }
+      #skills {
+         background-image: -webkit-linear-gradient(#7558de, #c0a2e8);
+	      background-size: cover;
+      }
+
+      .title-container {
+         font-size: 40px;
+         font-family: 'Raleway', sans-serif;
+         font-weight: bold;
+         text-stroke: 3px rgb(0, 0, 0);
+         background-image: -webkit-linear-gradient(#0b0695, #098de6);
+      background-size: cover;
+      -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;        
+      }
+
+      #resume {
+         background-image: -webkit-linear-gradient(#c0a2e8, #daabe9);
+         background-size: cover;
+      }
+
+      #portfolio {
+         background-image: -webkit-linear-gradient(#daabe9, #7558de);
+      }
+   }
