@@ -133,5 +133,8 @@ body[data-theme="dark"] {
    #skills {
       background-image: -webkit-linear-gradient(#0c8dc5, #320365);
       background-size: cover;
+      .section-title {
+         color: white !important;
+      }
    }
 }

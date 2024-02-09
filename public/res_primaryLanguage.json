@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I'm Christopher Spooner. I am an aspiring Software Developer that hopes to find a position that will enhance  my skills within a team. My main goal is to build more skills for  future positions and projects. As an aspiring developer I hope to create games, websites, and apps that enable people to have fun and destress.⭐. Thank you 💜",
+    "description": "👋 I'm Christopher Spooner. I am an aspiring Web Developer and Graphic Designer looking for a position that will enhance my skills within a collaborative team. My main goal is to build more skills for future positions and projects. As an aspiring developer and graphic designer, I hope to create engaging games, striking logos, visually stunning websites, and innovative apps that enable people to have fun and destress.⭐ Thank you 🖤.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -18,7 +18,7 @@
         "images/portfolio/Anime/anime.png",
         "images/portfolio/Anime/anime2.png"
       ],
-      "url": "https://github.com/cspooner1/102-Class04.git",
+      "url": "https://aanimeparadise.netlify.app/",
       "technologies": [
         {
           "class": "devicon-html5-plain",
