@@ -60,7 +60,7 @@ body[data-theme="dark"] {
    }
 
    #portfolio {
-      background: #5b5b5b;
+      background-image: -webkit-linear-gradient(#02034a, #0c8dc5);
       .section-title {
          color: white !important;
          -webkit-text-stroke: .1px red;
@@ -74,12 +74,15 @@ body[data-theme="dark"] {
    }
 
    #resume {
-      filter: brightness(80%);
-      background-image: -webkit-linear-gradient(#440695, #daabe9);
+      background-image: -webkit-linear-gradient(#320365, #a70101);
       background-size: cover;    
       .section-title {
          color: white !important;
       }
+
+   .experience-title {
+      color: white;
+}
 
       .experience-badge {
          background: #000000 !important;
@@ -95,7 +98,7 @@ body[data-theme="dark"] {
       }
 
       .vertical-timeline-element-icon {
-         background: #919191 !important;
+         background: #000000 !important;
       }
       @media only screen and (max-width: 1169px) { 
          .vertical-timeline-element-date {
@@ -125,5 +128,10 @@ body[data-theme="dark"] {
       background-size: cover;
       -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+   }
+
+   #skills {
+      background-image: -webkit-linear-gradient(#0c8dc5, #320365);
+      background-size: cover;
    }
 }
